@@ -6,123 +6,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <!-- CSS Links -->
+    <!-- <link href="CSS/intial.css" rel="stylesheet" type="text/css"> -->
+    <link href="CSS/general.css" rel="stylesheet" type="text/css">
+    <link href="CSS/header.css" rel="stylesheet" type="text/css">
+    <link href="CSS/firstSection.css" rel="stylesheet" type="text/css">
+    <link href="CSS/secondSection.css" rel="stylesheet" type="text/css">
+    <link href="CSS/footer.css" rel="stylesheet" type="text/css">
 
-    <!-- U can get this links from google font -->
+
+    <!-- FONT Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-    <script>
-
-    </script>
+    <style>
+      
+    </style>
 
 </head>
 
 <body>
+
+
     <nav>
-        <div class="left"> Kashif's Portfolio </div>
-        <div class="right">
+        <div class="left "> Kashif's Portfolio</div>
+        <div class="right ">
             <ul>
-                <li> <a href="/"> Home </a> </li>
-                <li> <a href="/"> About </a> </li>
-                <li> <a href="/"> Services </a> </li>
-                <li> <a href="/"> Projects </a> </li>
+                <li> <a href="/#home"> Home </a> </li>
+                <li> <a href="/#home"> About </a> </li>
+                <!-- <li> <a href="/"> Services </a> </li> -->
+                <li> <a href="/#projects"> Projects </a> </li>
                 <li> <a href="/"> Contact Me </a> </li>
             </ul>
         </div>
     </nav>
 
 
-    <main>
-        <section class="firstSection">
+    <div class="main">
 
-            <div class="leftSection">
+        <div class="firstSection" id="home">
+
+            <div class="firstSection-left">
                 <div> Hey , Everyone </div>
                 <div>I'm a Web</div>
                 <div> Developer & </div>
                 <span id="element"></span>
                 <div class="button">
-                    <!-- <a href="https://drive.google.com/drive/folders/1Pj0m41IKbBlXeiZo8_MmNrQGy72nvBUA"> -->
                     <button class="btn">Download resume</button>
-                    <!-- <a class="btn" type="button" href="Kashif_resume_updated_One.pdf">Download resume</a> -->
-                    <button class="btn">Visit Github</button>
+                    <!-- <a href="" target="_blank">
+                        Download resume</a> -->
+                    <button class="btn">
+                        <a href="https://github.com/kashifx7" target="_blank">
+                            Visit GitHub</a>
+                    </button>
                 </div>
             </div>
 
 
-            <div class="rightSection">
-                <img src="pb.jpg" alt="IMAGINE A NERD CODING">
+            <div class="firstSection-right">
+                <img src="IMAGES/pb.jpg" alt="IMAGINE A NERD CODING">
             </div>
 
-        </section>
+        </div>
 
         <hr>
-        <section class="secondSection">
+
+
+        <div>
             <span class="text-gray"> What i have done so far</span>
             <h1> Experience</h1>
+        </div>
+
+        <div class="secondSection">
+
+
+
 
             <div class="box">
+                <div class="box-first">
 
-                <div class="vertical">
-                    <img class="vertical-img" src="code-icon.jpg" alt="code">
-                   <div class="verticle-top">
-                         Languages
-                   </div>
-                   <div class="vertical-des">
-                        C C++ html CSS   
-                   </div>
+                    <div class="box-img-container">
+                        <img class=" box-img" src="IMAGES/code-icon.jpg" alt="code">
+                    </div>
+                    <div class="box-heading">
+                        Languages
+                    </div>
+
                 </div>
 
+                <div class="box-second">
+                    <ul>
+                        <li> C</li>
+                        <li>C++ </li>
+                        <li> html </li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </div>
+            </div>
 
-                <div class="vertical">
-                    <img class="vertical-img" src="book.jpg" alt="book">
-                    <div class="verticle-top">
+
+            <div class="box">
+                <div class="box-first">
+
+                    <div class="box-img-container">
+                        <img class="box-img" src="IMAGES/book.jpg" alt="book">
+                    </div>
+                    <div class="box-heading">
                         Subjects
                     </div>
-                    <div class="vertical-des">
-                        Database DSA CN
-                    </div>
+
                 </div>
 
+                <div class="box-second">
+                    <ul>
+                        <li> OOP's </li>
+                        <li> DSA </li>
+                        <li> DBMS </li>
+                        <li> OS</li>
+                    </ul>
+                </div>
+            </div>
 
-                <div class="vertical">
-                    <img class="vertical-img" src="project.jpg" alt="idea-bulb">
-                    <div class="verticle-top">
+
+
+
+            <div class="box" id="projects">
+                <div class="box-first">
+
+                    <div class="box-img-container">
+                        <img class="box-img" src="IMAGES/project.jpg" alt="idea-bulb">
+
+                    </div>
+                    <div class="box-heading">
                         Projects
                     </div>
-                    <div class="vertical-des">
-                        Blud I'm working on it
-                    </div>
-                </div>
-                <!-- <div class="vertical"></div> -->
-            </div>
-        </section>
 
-    </main>
+                </div>
+
+                <div class="box-second">
+                    <ul>
+                        <li>
+                            <a href="https://kashifx7.github.io/Rock-Paper-Scissors/" target="_blank">
+                                Rock-Paper-Scissors</a>
+                        </li>
+                        <li>
+                            <a href="https://kashifx7.github.io/To-Do-List/" target="_blank">
+                                To-Do-List</a>
+                        </li>   
+                        
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     <footer>
-        <div class="footer">
-            <div class="first-left"> Kashif's Developer Portfolio</div>
-            <div class="first-right">
+        <div class="footer-top">
+            <div class="footer-left"> 
+                <a href="/#home">  Kashif's Developer Portfolio</a>
+            </div>
+            <div class="footer-right">
                 <ul>
-                    <li>Home</li>
+                    <li> <a href="/#home"> Home </a> </li>
                     <li>services</li>
                     <li>Contact me</li>
                 </ul>
 
             </div>
-
         </div>
         <div class="footer-bottom">Copyrights &#169 www.kashifsportfolio.com | All rights reserved</div>
     </footer>
+
 
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['I Explore', 'I Build', 'I Code'],
-            typeSpeed: 50,
+            typeSpeed: 80,
         });
     </script>
 </body>
