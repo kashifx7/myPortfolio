@@ -34,4 +34,13 @@ a:hover {
         padding: 0;
     }
 
+    .main .mid{
+        margin: 0px 15px;
+        margin-top: 10px;
+    }
+
+    hr{
+        margin-top: 40px;
+    }
+
 }
