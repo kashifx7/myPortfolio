@@ -103,7 +103,7 @@
 
     .firstSection-left p,
     .firstSection-left .button {
-        padding-left: 100px;
+        padding: 0px 80px
     }
 
     .firstSection-right {
